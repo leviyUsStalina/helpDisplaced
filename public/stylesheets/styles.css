@@ -1,0 +1,126 @@
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.headerLink{
+    margin-right: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+
+    justify-content: center;
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+}
+input{
+    width: 500px;
+    height: 25px;
+    margin-right: 50px;
+}
+body{
+    font-family: 'Unbounded', cursive;
+
+}
+.topImage{
+    height:500px;
+    width: 100%;
+    background-image: url(images/relok.jpg);
+}
+.h1ForTopImage{
+    color: white;
+}
+main {
+
+    width: 100%;
+    height: 1000px;
+}
+.mainH3{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.mainH1{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.mainImg{
+    width: 200px;
+    height: 100px;
+}
+.mainH1Two{
+margin-left: 550px;
+}
+.mainH6{
+    margin-left: 600px;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    margin-right: 230px;
+}
+
+.mainSpan{
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.mainSpan1{
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 355px;
+}
+.mainH1Three{
+    margin-left: 470px;
+    margin-top: 100px;
+}
+.mainH6Two{
+    height: 100px;
+    width: 300px;
+    margin-left: 500px;
+}
+.mainCard{
+    height: 320px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 125px;
+    margin-top: 25px;
+    background-color: #ffffff;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 35px;
+    margin-left: 700px;
+}
+.mainH1Four{
+    margin-left: 500px;
+}
+.mainH6Three{
+    height: 100px;
+    width: 500px;
+    margin-left: 350px;
+
+}
+.mainH1Five{
+    margin-top: 50px;
+    margin-left: 470px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: x-large;
+}
+h1{
+    color: rgb(51, 68, 255);
+
+}
+.helloDiv{
+    height: 500px;
+    width: 100%;
+    background-image: url(images/warshav.jpg);
+}
