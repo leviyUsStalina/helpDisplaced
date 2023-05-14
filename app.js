@@ -7,7 +7,6 @@ var nunjucks = require('nunjucks')
 
 var indexRouter = require('./routes/index');
 
-
 var app = express();
 
 // view engine setup
