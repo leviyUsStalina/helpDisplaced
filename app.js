@@ -5,8 +5,9 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var nunjucks = require('nunjucks');
 
-var indexRouter = require('./routes/index');
 
+var indexRouter = require('./routes/index');
+var countriesRouter = require('./routes/countries');
 var app = express();
 
 // view engine setup
