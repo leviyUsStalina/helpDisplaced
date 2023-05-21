@@ -27,7 +27,7 @@ body{
 .topImage{
     height:500px;
     width: 100%;
-    background-image: url(images/relok.jpg);
+    background-image: url(images/airport.jpg);
 }
 .h1ForTopImage{
     color: white;
@@ -117,10 +117,4 @@ a{
 }
 h1{
     color: rgb(51, 68, 255);
-
-}
-.helloDiv{
-    height: 500px;
-    width: 100%;
-    background-image: url(images/warshav.jpg);
 }

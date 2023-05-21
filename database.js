@@ -2,16 +2,14 @@ const sqlite3 = require('sqlite3');
 
 let db = new sqlite3.Database('database.db');
 
-
-db.all(sql, [], (err, rows) => {
+const databaseErr = new sqlite3.Database('./database.db' , (err) =>{
     if (err) {
-        throw err;
+        console.log(
+            err.message
+        );
     }
-    console.log(rows);
-    rows.forEach((row) => {
-        console.log(row.name);
-    });
-});
+    console.log("Good");
+})
 
 db.serialize(() => {
     db.run(`
@@ -22,7 +20,7 @@ db.serialize(() => {
         permanentResident NUMBER NOT NULL,
         visaCost NUMBER NOT NULL,
         worldPart TEXT NOT NULL,
-        attitudeTowardsEmigrant TEXT NOT NULL,
+        language TEXT NOT NULL,
         liveComfort TEXT NOT NULL,
         mainReligion TEXT NOT NULL,
         avgSalary NUMBER NOT NULL,
