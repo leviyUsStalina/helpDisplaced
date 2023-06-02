@@ -11,13 +11,27 @@
     <form action="/countries" method="post">
         {% for countries in countries %}
         <div class="countriesCards">
-            <h1>{{countries.name}}</h1>
-            <h5>{{countries.residencePermit}}</h5>
-            <h5>{{countries.permanentResident}}</h5>
-            <h5>{{countries.visaCost}}</h5>
-            <h5>{{countries.worldPart}}</h5>
-            <h5>{{countries.language}}</h5>
-            <h5>{{countries.lifeComfort}}</h5>
+            <h1>
+                {{countries.name}}
+            </h1>
+            <h5>
+                {{countries.residencePermit}}
+            </h5>
+            <h5>
+                {{countries.permanentResident}}
+            </h5>
+            <h5>
+                {{countries.visaCost}}
+            </h5>
+            <h5>
+                {{countries.worldPart}}
+            </h5>
+            <h5>
+                {{countries.language}}
+            </h5>
+            <h5>
+                {{countries.lifeComfort}}
+            </h5>
         </div>
         {% endfor %}
     </form>
